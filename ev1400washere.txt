@@ -1,0 +1,587 @@
+-- made by ev#1400 lel
+-- dont leak or ur my son for life
+
+local TBDGui = Instance.new("ScreenGui")
+local GUI1 = Instance.new("Frame")
+local GuiFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local SuperTps = Instance.new("TextButton")
+local CRockFarm = Instance.new("TextButton")
+local SuperTPTab = Instance.new("Frame")
+local SigilKnight = Instance.new("TextButton")
+local Botanist = Instance.new("TextButton")
+local Assassin = Instance.new("TextButton")
+local Spy = Instance.new("TextButton")
+local SuperIllu = Instance.new("TextButton")
+local Necro = Instance.new("TextButton")
+local Monk = Instance.new("TextButton")
+local Akuma = Instance.new("TextButton")
+local CK = Instance.new("TextButton")
+local CastleRockFarm = Instance.new("Frame")
+local StartCrockTP = Instance.new("TextButton")
+local EndCrockTP = Instance.new("TextButton")
+local Table = Instance.new("TextButton")
+local UltraTps = Instance.new("TextButton")
+local UltraTPTab = Instance.new("Frame")
+local Druid = Instance.new("TextButton")
+local DSlayer = Instance.new("TextButton")
+local Dragonsage = Instance.new("TextButton")
+local Shinobi = Instance.new("TextButton")
+local Necro_2 = Instance.new("TextButton")
+local Oni = Instance.new("TextButton")
+local DSK = Instance.new("TextButton")
+local MasterIllu = Instance.new("TextButton")
+local USigil = Instance.new("TextButton")
+local MiscTPs = Instance.new("TextButton")
+local BaseTPTab = Instance.new("Frame")
+local Pitfighter = Instance.new("TextButton")
+local Botanist_2 = Instance.new("TextButton")
+local Merchant = Instance.new("TextButton")
+local Warrior = Instance.new("TextButton")
+local Thief = Instance.new("TextButton")
+local Necro_3 = Instance.new("TextButton")
+local Monk_2 = Instance.new("TextButton")
+local Akuma_2 = Instance.new("TextButton")
+local CK_2 = Instance.new("TextButton")
+
+--Properties:
+
+TBDGui.Name = "TBDGui"
+TBDGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TBDGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+GUI1.Name = "GUI1"
+GUI1.Parent = TBDGui
+GUI1.BackgroundColor3 = Color3.fromRGB(36, 36, 35)
+GUI1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+GUI1.Position = UDim2.new(0.0165692084, 0, 0.236156344, 0)
+GUI1.Size = UDim2.new(0, 447, 0, 266)
+GUI1.Draggable = true
+GUI1.Active = true
+GUI1.Selectable = true
+
+GuiFrame.Name = "GuiFrame"
+GuiFrame.Parent = GUI1
+GuiFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+GuiFrame.BorderColor3 = Color3.fromRGB(17, 17, 17)
+GuiFrame.Size = UDim2.new(0, 447, 0, 35)
+
+TextLabel.Parent = GuiFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.261694998, 0, -0.027551705, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 33)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "TBD v0.2"
+TextLabel.TextColor3 = Color3.fromRGB(66, 69, 71)
+TextLabel.TextSize = 50.000
+
+SuperTps.Name = "SuperTps"
+SuperTps.Parent = GUI1
+SuperTps.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+SuperTps.BorderColor3 = Color3.fromRGB(15, 15, 15)
+SuperTps.Position = UDim2.new(-0.000646293163, 0, 0.122501224, 0)
+SuperTps.Size = UDim2.new(0, 117, 0, 50)
+SuperTps.Font = Enum.Font.SourceSansBold
+SuperTps.Text = "Super TPs"
+SuperTps.TextColor3 = Color3.fromRGB(0, 0, 0)
+SuperTps.TextSize = 25.000
+
+CRockFarm.Name = "CRockFarm"
+CRockFarm.Parent = GUI1
+CRockFarm.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+CRockFarm.BorderColor3 = Color3.fromRGB(15, 15, 15)
+CRockFarm.BorderSizePixel = 0
+CRockFarm.Position = UDim2.new(0.742082834, 0, 0.122501224, 0)
+CRockFarm.Size = UDim2.new(0, 115, 0, 50)
+CRockFarm.Font = Enum.Font.SourceSansBold
+CRockFarm.Text = "CRock Farm"
+CRockFarm.TextColor3 = Color3.fromRGB(0, 0, 0)
+CRockFarm.TextSize = 25.000
+
+SuperTPTab.Name = "SuperTPTab"
+SuperTPTab.Parent = GUI1
+SuperTPTab.BackgroundColor3 = Color3.fromRGB(36, 36, 35)
+SuperTPTab.Position = UDim2.new(0, 0, 0.317989945, 0)
+SuperTPTab.Size = UDim2.new(0, 447, 0, 181)
+
+SigilKnight.Name = "Sigil Knight"
+SigilKnight.Parent = SuperTPTab
+SigilKnight.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+SigilKnight.Position = UDim2.new(0.0178970918, 0, 0.0439560451, 0)
+SigilKnight.Size = UDim2.new(0, 135, 0, 49)
+SigilKnight.Font = Enum.Font.SourceSans
+SigilKnight.Text = "Sigil Knight"
+SigilKnight.TextColor3 = Color3.fromRGB(0, 0, 0)
+SigilKnight.TextSize = 30.000
+SigilKnight.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1954.29199, 308.600006, -829.255554, 0.380208194, 4.00935143e-08, -0.924900949, 2.688504e-08, 1, 5.4400882e-08, 0.924900949, -4.55496583e-08, 0.380208194)
+end)
+
+Botanist.Name = "Botanist"
+Botanist.Parent = SuperTPTab
+Botanist.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Botanist.Position = UDim2.new(0.675615191, 0, 0.0439560451, 0)
+Botanist.Size = UDim2.new(0, 135, 0, 49)
+Botanist.Font = Enum.Font.SourceSans
+Botanist.Text = "Botanist"
+Botanist.TextColor3 = Color3.fromRGB(0, 0, 0)
+Botanist.TextSize = 30.000
+Botanist.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3187.77808, 142.368164, -2438.86157, -0.0332879797, 2.53923371e-08, -0.999445796, -8.63725447e-09, 1, 2.5694094e-08, 0.999445796, 9.48777235e-09, -0.0332879797)
+end)
+
+Assassin.Name = "Assassin"
+Assassin.Parent = SuperTPTab
+Assassin.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Assassin.Position = UDim2.new(0.348993301, 0, 0.0439560451, 0)
+Assassin.Size = UDim2.new(0, 135, 0, 49)
+Assassin.Font = Enum.Font.SourceSans
+Assassin.Text = "Assassin"
+Assassin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Assassin.TextSize = 30.000
+Assassin.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-304.28006, 188.093781, 372.787903, 0.000823519775, 1.08009587e-07, 0.999999523, 6.97044023e-09, 1, -1.08015357e-07, -0.999999523, 7.05938863e-09, 0.000823519775)
+end)
+
+Spy.Name = "Spy"
+Spy.Parent = SuperTPTab
+Spy.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Spy.Position = UDim2.new(0.0178970918, 0, 0.362637371, 0)
+Spy.Size = UDim2.new(0, 135, 0, 49)
+Spy.Font = Enum.Font.SourceSans
+Spy.Text = "Spy"
+Spy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spy.TextSize = 30.000
+Spy.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1206.91089, 678.987183, 2638.54419, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+
+SuperIllu.Name = "SuperIllu"
+SuperIllu.Parent = SuperTPTab
+SuperIllu.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+SuperIllu.Position = UDim2.new(0.0178970918, 0, 0.664835215, 0)
+SuperIllu.Size = UDim2.new(0, 135, 0, 49)
+SuperIllu.Font = Enum.Font.SourceSans
+SuperIllu.Text = "Super Illu"
+SuperIllu.TextColor3 = Color3.fromRGB(0, 0, 0)
+SuperIllu.TextSize = 30.000
+SuperIllu.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-420.746918, 270.5, 1048.06677, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Necro.Name = "Necro"
+Necro.Parent = SuperTPTab
+Necro.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Necro.Position = UDim2.new(0.348993301, 0, 0.362637371, 0)
+Necro.Size = UDim2.new(0, 135, 0, 49)
+Necro.Font = Enum.Font.SourceSans
+Necro.Text = "DKnight"
+Necro.TextColor3 = Color3.fromRGB(0, 0, 0)
+Necro.TextSize = 30.000
+Necro.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3087.30127, 121.368164, -2499.22119, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+Monk.Name = "Monk"
+Monk.Parent = SuperTPTab
+Monk.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Monk.Position = UDim2.new(0.348993301, 0, 0.664835215, 0)
+Monk.Size = UDim2.new(0, 135, 0, 49)
+Monk.Font = Enum.Font.SourceSans
+Monk.Text = "Monk"
+Monk.TextColor3 = Color3.fromRGB(0, 0, 0)
+Monk.TextSize = 30.000
+Monk.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1306.30127, 434.092834, 293.966553, -0.999746025, 8.51120348e-08, -0.0225356836, 8.44019539e-08, 1, 3.24601253e-08, 0.0225356836, 3.0549824e-08, -0.999746025)
+end)
+
+Akuma.Name = "Akuma"
+Akuma.Parent = SuperTPTab
+Akuma.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Akuma.Position = UDim2.new(0.675615191, 0, 0.362637401, 0)
+Akuma.Size = UDim2.new(0, 135, 0, 49)
+Akuma.Font = Enum.Font.SourceSans
+Akuma.Text = "Akuma"
+Akuma.TextColor3 = Color3.fromRGB(0, 0, 0)
+Akuma.TextSize = 30.000
+Akuma.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3045.39185, 439.754303, 800.00824, 0.965929627, -0, -0.258804798, 0, 1, -0, 0.258804798, 0, 0.965929627)
+end)
+
+CK.Name = "CK"
+CK.Parent = SuperTPTab
+CK.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+CK.Position = UDim2.new(0.675615191, 0, 0.664835215, 0)
+CK.Size = UDim2.new(0, 135, 0, 49)
+CK.Font = Enum.Font.SourceSans
+CK.Text = "CK"
+CK.TextColor3 = Color3.fromRGB(0, 0, 0)
+CK.TextSize = 30.000
+CK.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6782.18701, 560.800598, -1740.77271, 0.99990648, 0, -0.0136719085, 0, 1, 0, 0.0136719085, 0, 0.99990648)
+end)
+
+CastleRockFarm.Name = "CastleRockFarm"
+CastleRockFarm.Parent = GUI1
+CastleRockFarm.BackgroundColor3 = Color3.fromRGB(36, 36, 35)
+CastleRockFarm.Position = UDim2.new(0, 0, 0.315789461, 0)
+CastleRockFarm.Size = UDim2.new(0, 447, 0, 182)
+CastleRockFarm.Visible = false
+
+StartCrockTP.Name = "StartCrockTP"
+StartCrockTP.Parent = CastleRockFarm
+StartCrockTP.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+StartCrockTP.Position = UDim2.new(0.0223713312, 0, 0.0439560451, 0)
+StartCrockTP.Size = UDim2.new(0, 207, 0, 61)
+StartCrockTP.Font = Enum.Font.SourceSans
+StartCrockTP.Text = "Start of CRock TP"
+StartCrockTP.TextColor3 = Color3.fromRGB(0, 0, 0)
+StartCrockTP.TextSize = 30.000
+StartCrockTP.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4504.92871, 839.293945, 468.642151, 0.115797482, 5.51906574e-08, -0.993272841, -9.41328651e-08, 1, 4.45902728e-08, 0.993272841, 8.83361793e-08, 0.115797482)
+end)
+
+EndCrockTP.Name = "EndCrockTP"
+EndCrockTP.Parent = CastleRockFarm
+EndCrockTP.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+EndCrockTP.Position = UDim2.new(0.510067165, 0, 0.0439560451, 0)
+EndCrockTP.Size = UDim2.new(0, 218, 0, 61)
+EndCrockTP.Font = Enum.Font.SourceSans
+EndCrockTP.Text = "End of CRock TP"
+EndCrockTP.TextColor3 = Color3.fromRGB(0, 0, 0)
+EndCrockTP.TextSize = 30.000
+EndCrockTP.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5811.08301, 415.934235, 640.857056, -0.719106674, 1.09487068e-08, 0.694899678, 7.3697656e-08, 1, 6.0509123e-08, -0.694899678, 9.47249887e-08, -0.719106674)
+end)
+
+Table.Name = "Table"
+Table.Parent = CastleRockFarm
+Table.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Table.Position = UDim2.new(0.0111856489, 0, 0.467032969, 0)
+Table.Size = UDim2.new(0, 436, 0, 61)
+Table.Font = Enum.Font.SourceSans
+Table.Text = "CRock Table TP"
+Table.TextColor3 = Color3.fromRGB(0, 0, 0)
+Table.TextSize = 30.000
+Table.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4883.2832, 545.950378, 757.594604, -0.99980408, -2.81829919e-08, 0.0197948366, -2.79427148e-08, 1, 1.24149562e-08, -0.0197948366, 1.18594023e-08, -0.99980408)
+end)
+
+UltraTps.Name = "UltraTps"
+UltraTps.Parent = GUI1
+UltraTps.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+UltraTps.BorderColor3 = Color3.fromRGB(15, 15, 15)
+UltraTps.Position = UDim2.new(0.261098623, 0, 0.126260608, 0)
+UltraTps.Size = UDim2.new(0, 112, 0, 49)
+UltraTps.Font = Enum.Font.SourceSansBold
+UltraTps.Text = "Ultra TPs"
+UltraTps.TextColor3 = Color3.fromRGB(0, 0, 0)
+UltraTps.TextSize = 25.000
+
+UltraTPTab.Name = "UltraTPTab"
+UltraTPTab.Parent = GUI1
+UltraTPTab.BackgroundColor3 = Color3.fromRGB(36, 36, 35)
+UltraTPTab.Position = UDim2.new(0, 0, 0.317989945, 0)
+UltraTPTab.Size = UDim2.new(0, 447, 0, 181)
+UltraTPTab.Visible = false
+
+Druid.Name = "Druid"
+Druid.Parent = UltraTPTab
+Druid.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Druid.Position = UDim2.new(0.0223713648, 0, 0.0439560451, 0)
+Druid.Size = UDim2.new(0, 135, 0, 49)
+Druid.Font = Enum.Font.SourceSans
+Druid.Text = "Druid"
+Druid.TextColor3 = Color3.fromRGB(0, 0, 0)
+Druid.TextSize = 30.000
+Druid.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1888.50012, 239, 1565.00012, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+DSlayer.Name = "DSlayer"
+DSlayer.Parent = UltraTPTab
+DSlayer.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+DSlayer.Position = UDim2.new(0.675615191, 0, 0.0439560451, 0)
+DSlayer.Size = UDim2.new(0, 135, 0, 49)
+DSlayer.Font = Enum.Font.SourceSans
+DSlayer.Text = "DSlayer"
+DSlayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+DSlayer.TextSize = 30.000
+DSlayer.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1132.35083, 3784.13989, 228.521072, 0.0452269278, 1.7476534e-08, -0.998976707, 4.72319215e-08, 1, 1.96327772e-08, 0.998976707, -4.80715201e-08, 0.0452269278)
+end)
+
+Dragonsage.Name = "Dragonsage"
+Dragonsage.Parent = UltraTPTab
+Dragonsage.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Dragonsage.Position = UDim2.new(0.348993301, 0, 0.0439560451, 0)
+Dragonsage.Size = UDim2.new(0, 135, 0, 49)
+Dragonsage.Font = Enum.Font.SourceSans
+Dragonsage.Text = "Dragonsage"
+Dragonsage.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dragonsage.TextSize = 30.000
+Dragonsage.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5847.29248, 1299.29395, -676.049377, 0.159141868, 8.60274074e-10, -0.987255752, 9.83957946e-08, 1, 1.67324075e-08, 0.987255752, -9.98046374e-08, 0.159141868)
+end)
+
+Shinobi.Name = "Shinobi"
+Shinobi.Parent = UltraTPTab
+Shinobi.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shinobi.Position = UDim2.new(0.0178970918, 0, 0.362637371, 0)
+Shinobi.Size = UDim2.new(0, 135, 0, 49)
+Shinobi.Font = Enum.Font.SourceSans
+Shinobi.Text = "Shinobi"
+Shinobi.TextColor3 = Color3.fromRGB(0, 0, 0)
+Shinobi.TextSize = 30.000
+Shinobi.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(735.640503, 125.710083, -4666.896, -0.931000054, -2.69939751e-08, 0.365019053, -2.36674271e-08, 1, 1.35872336e-08, -0.365019053, 4.01065314e-09, -0.931000054)
+end)
+
+Necro_2.Name = "Necro"
+Necro_2.Parent = UltraTPTab
+Necro_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Necro_2.Position = UDim2.new(0.0178970918, 0, 0.664835215, 0)
+Necro_2.Size = UDim2.new(0, 135, 0, 49)
+Necro_2.Font = Enum.Font.SourceSans
+Necro_2.Text = "Faceless"
+Necro_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Necro_2.TextSize = 30.000
+Necro_2.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6593.90137, 656.799133, -862.464478, 0.999952912, -2.41921434e-08, 0.00966236275, 2.44424392e-08, 1, -2.57853099e-08, -0.00966236275, 2.60202633e-08, 0.999952912)
+end)
+
+Oni.Name = "Oni"
+Oni.Parent = UltraTPTab
+Oni.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Oni.Position = UDim2.new(0.348993301, 0, 0.362637371, 0)
+Oni.Size = UDim2.new(0, 135, 0, 49)
+Oni.Font = Enum.Font.SourceSans
+Oni.Text = "Oni"
+Oni.TextColor3 = Color3.fromRGB(0, 0, 0)
+Oni.TextSize = 30.000
+Oni.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5458.59326, 784.794067, -1196.43103, 0.999990523, -5.18291827e-08, -0.00434739422, 5.17419885e-08, 1, -2.01694004e-08, 0.00434739422, 1.99442667e-08, 0.999990523)
+end)
+
+DSK.Name = "DSK"
+DSK.Parent = UltraTPTab
+DSK.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+DSK.Position = UDim2.new(0.348993301, 0, 0.664835215, 0)
+DSK.Size = UDim2.new(0, 135, 0, 49)
+DSK.Font = Enum.Font.SourceSans
+DSK.Text = "DSK"
+DSK.TextColor3 = Color3.fromRGB(0, 0, 0)
+DSK.TextSize = 30.000
+DSK.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1875.05322, -517.754822, -5439.5, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+MasterIllu.Name = "MasterIllu"
+MasterIllu.Parent = UltraTPTab
+MasterIllu.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+MasterIllu.Position = UDim2.new(0.675615191, 0, 0.362637401, 0)
+MasterIllu.Size = UDim2.new(0, 135, 0, 49)
+MasterIllu.Font = Enum.Font.SourceSans
+MasterIllu.Text = "Illusionist"
+MasterIllu.TextColor3 = Color3.fromRGB(0, 0, 0)
+MasterIllu.TextSize = 30.000
+MasterIllu.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6091.5835, 1416.49414, 127.194588, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+
+USigil.Name = "USigil"
+USigil.Parent = UltraTPTab
+USigil.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+USigil.Position = UDim2.new(0.675615191, 0, 0.664835215, 0)
+USigil.Size = UDim2.new(0, 135, 0, 49)
+USigil.Font = Enum.Font.SourceSans
+USigil.Text = "Ultra Sigil"
+USigil.TextColor3 = Color3.fromRGB(0, 0, 0)
+USigil.TextSize = 30.000
+USigil.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6851.146, 1411.49353, -160.186157, -0.0445353091, -2.93505842e-08, -0.999007821, 9.53043422e-09, 1, -2.98045961e-08, 0.999007821, -1.08483347e-08, -0.0445353091)
+end)
+
+MiscTPs.Name = "MiscTPs"
+MiscTPs.Parent = GUI1
+MiscTPs.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+MiscTPs.BorderColor3 = Color3.fromRGB(15, 15, 15)
+MiscTPs.BorderSizePixel = 0
+MiscTPs.Position = UDim2.new(0.511083245, 0, 0.122501209, 0)
+MiscTPs.Size = UDim2.new(0, 104, 0, 50)
+MiscTPs.Font = Enum.Font.SourceSansBold
+MiscTPs.Text = "Misc TPs"
+MiscTPs.TextColor3 = Color3.fromRGB(0, 0, 0)
+MiscTPs.TextSize = 25.000
+
+BaseTPTab.Name = "BaseTPTab"
+BaseTPTab.Parent = GUI1
+BaseTPTab.BackgroundColor3 = Color3.fromRGB(36, 36, 35)
+BaseTPTab.Position = UDim2.new(0, 0, 0.317989945, 0)
+BaseTPTab.Size = UDim2.new(0, 447, 0, 181)
+BaseTPTab.Visible = false
+
+Pitfighter.Name = "Pitfighter"
+Pitfighter.Parent = BaseTPTab
+Pitfighter.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Pitfighter.Position = UDim2.new(0.0178970918, 0, 0.0439560451, 0)
+Pitfighter.Size = UDim2.new(0, 135, 0, 49)
+Pitfighter.Font = Enum.Font.SourceSans
+Pitfighter.Text = "Pitfighter"
+Pitfighter.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pitfighter.TextSize = 30.000
+Pitfighter.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3038.97363, 239.84874, -354.235107, -0.00131838478, 5.87146367e-08, -0.999999106, -1.33101641e-09, 1, 5.8716445e-08, 0.999999106, 1.40842615e-09, -0.00131838478)
+end)
+
+Botanist_2.Name = "Botanist"
+Botanist_2.Parent = BaseTPTab
+Botanist_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Botanist_2.Position = UDim2.new(0.675615191, 0, 0.0439560451, 0)
+Botanist_2.Size = UDim2.new(0, 135, 0, 49)
+Botanist_2.Font = Enum.Font.SourceSans
+Botanist_2.Text = "Engineer"
+Botanist_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Botanist_2.TextSize = 30.000
+Botanist_2.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1832.448, 315.09375, -240.782364, -0.0129674431, 7.20772775e-08, 0.999916136, 5.68596441e-08, 1, -7.13459798e-08, -0.999916136, 5.59296609e-08, -0.0129674431)
+end)
+
+Merchant.Name = "Merchant"
+Merchant.Parent = BaseTPTab
+Merchant.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Merchant.Position = UDim2.new(0.348993301, 0, 0.0439560451, 0)
+Merchant.Size = UDim2.new(0, 135, 0, 49)
+Merchant.Font = Enum.Font.SourceSans
+Merchant.Text = "Merchant"
+Merchant.TextColor3 = Color3.fromRGB(0, 0, 0)
+Merchant.TextSize = 30.000
+Merchant.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2804.88794, 287.750061, 50.2727127, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+Warrior.Name = "Warrior"
+Warrior.Parent = BaseTPTab
+Warrior.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Warrior.Position = UDim2.new(0.0178970918, 0, 0.362637371, 0)
+Warrior.Size = UDim2.new(0, 135, 0, 49)
+Warrior.Font = Enum.Font.SourceSans
+Warrior.Text = "Warrior"
+Warrior.TextColor3 = Color3.fromRGB(0, 0, 0)
+Warrior.TextSize = 30.000
+Warrior.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1801.47375, 315.653778, -226.704666, -0.999964058, -2.65695252e-08, 0.00847814605, -2.59212101e-08, 1, 7.65787718e-08, -0.00847814605, 7.63562582e-08, -0.999964058)
+end)
+
+Thief.Name = "Thief"
+Thief.Parent = BaseTPTab
+Thief.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Thief.Position = UDim2.new(0.0178970918, 0, 0.664835215, 0)
+Thief.Size = UDim2.new(0, 135, 0, 49)
+Thief.Font = Enum.Font.SourceSans
+Thief.Text = "Thief"
+Thief.TextColor3 = Color3.fromRGB(0, 0, 0)
+Thief.TextSize = 30.000
+Thief.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2027.30627, 611.985596, -678.139648, 0.859695554, 2.87767712e-08, 0.510806739, -4.06406784e-08, 1, 1.20629569e-08, -0.510806739, -3.11300035e-08, 0.859695554)
+end)
+
+Necro_3.Name = "Necro"
+Necro_3.Parent = BaseTPTab
+Necro_3.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Necro_3.Position = UDim2.new(0.348993301, 0, 0.362637371, 0)
+Necro_3.Size = UDim2.new(0, 135, 0, 49)
+Necro_3.Font = Enum.Font.SourceSans
+Necro_3.Text = "Sewers"
+Necro_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Necro_3.TextSize = 30.000
+Necro_3.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2672.77783, 607.899963, 113.011459, 0.932997227, 9.50905843e-08, -0.359882653, -8.16721197e-08, 1, 5.24914654e-08, 0.359882653, -1.95820125e-08, 0.932997227)
+end)
+
+Monk_2.Name = "Monk"
+Monk_2.Parent = BaseTPTab
+Monk_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Monk_2.Position = UDim2.new(0.348993301, 0, 0.664835215, 0)
+Monk_2.Size = UDim2.new(0, 135, 0, 49)
+Monk_2.Font = Enum.Font.SourceSans
+Monk_2.Text = "SnapTrainer"
+Monk_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Monk_2.TextSize = 30.000
+Monk_2.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3836.92871, 600.196777, 15.8508425, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+end)
+
+Akuma_2.Name = "Akuma"
+Akuma_2.Parent = BaseTPTab
+Akuma_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Akuma_2.Position = UDim2.new(0.675615191, 0, 0.362637401, 0)
+Akuma_2.Size = UDim2.new(0, 135, 0, 49)
+Akuma_2.Font = Enum.Font.SourceSans
+Akuma_2.Text = "Whisperer"
+Akuma_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Akuma_2.TextSize = 30.000
+Akuma_2.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6564.59277, 1402.29395, -44.5387917, 0.00356984674, 9.38920124e-08, 0.999993503, -3.54815093e-08, 1, -9.37659408e-08, -0.999993503, -3.51465488e-08, 0.00356984674)
+end)
+
+CK_2.Name = "CK"
+CK_2.Parent = BaseTPTab
+CK_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+CK_2.Position = UDim2.new(0.675615191, 0, 0.664835215, 0)
+CK_2.Size = UDim2.new(0, 135, 0, 49)
+CK_2.Font = Enum.Font.SourceSans
+CK_2.Text = "Alchemist"
+CK_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+CK_2.TextSize = 30.000
+CK_2.MouseButton1Down:connect(function() 
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(811.682251, 184.963104, 3201.34692, 0.996193707, -0.0149151515, -0.0858814716, 3.54126096e-05, 0.985321105, -0.170711294, 0.0871670097, 0.170058474, 0.981571198)
+end)
+
+-- Scripts:
+
+local function QCDOO_fake_script() -- SuperTps.LocalScript 
+	local script = Instance.new('LocalScript', SuperTps)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.BaseTPTab.Visible = false
+		script.Parent.Parent.SuperTPTab.Visible = true
+		script.Parent.Parent.UltraTPTab.Visible = false
+		script.Parent.Parent.CastleRockFarm.Visible = false
+	end)
+end
+coroutine.wrap(QCDOO_fake_script)()
+local function DGLUIH_fake_script() -- CRockFarm.LocalScript 
+	local script = Instance.new('LocalScript', CRockFarm)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.BaseTPTab.Visible = false
+		script.Parent.Parent.SuperTPTab.Visible = false
+		script.Parent.Parent.UltraTPTab.Visible = false
+		script.Parent.Parent.CastleRockFarm.Visible = true
+	end)
+end
+coroutine.wrap(DGLUIH_fake_script)()
+local function NLIYTE_fake_script() -- UltraTps.LocalScript 
+	local script = Instance.new('LocalScript', UltraTps)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.BaseTPTab.Visible = false
+		script.Parent.Parent.SuperTPTab.Visible = false
+		script.Parent.Parent.UltraTPTab.Visible = true
+		script.Parent.Parent.CastleRockFarm.Visible = false
+	end)
+end
+coroutine.wrap(NLIYTE_fake_script)()
+local function VGKEA_fake_script() -- MiscTPs.LocalScript 
+	local script = Instance.new('LocalScript', MiscTPs)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.BaseTPTab.Visible = true
+		script.Parent.Parent.SuperTPTab.Visible = false
+		script.Parent.Parent.UltraTPTab.Visible = false
+		script.Parent.Parent.CastleRockFarm.Visible = false
+	end)
+end
+coroutine.wrap(VGKEA_fake_script)()
